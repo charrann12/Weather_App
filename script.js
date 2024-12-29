@@ -56,7 +56,7 @@ async function checkWeather(city) {
 
      else if(data.weather[0].main == "Rain"){
         weatherIcon.src = "images/rain.png";
-        background.src = "videos/rain.mp4";
+        background.src = "videos/rainn.mp4";
      }
 
      else if(data.weather[0].main == "Snow"){
